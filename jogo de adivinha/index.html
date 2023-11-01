@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de adivinha</title>
+    <link rel="stylesheet" href="estilo.css/estilos.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>jogo de adivinha</h1>
+        <h2>tente adivinhar o numero de 1 a 10!</h2>
+        <textarea disabled id="caixa_resposta" value=""></textarea>
+        <div class="esconder">
+            <input type="radio" name="escolha" value="sim" id="sim">
+            <label for="sim">sim</label>
+            <input type="radio" name="escolha" value="nao" id="nao">
+            <label for="nao">nao</label>
+        </div>
+        <input type="number" id="input_numero" class="esconder">
+        <button id="botao_verificar" class="esconder">verificar</button>
+        <button class="esconder" id="botao_comecar">começar</button>
+    </div>
+</body>
+<script src="script/script.js"></script>
+
+</html>
